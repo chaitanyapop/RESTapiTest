@@ -37,7 +37,7 @@ public class GetRequest {
     public void send_get_request() throws Throwable {
     	response=
     	given()
-    	.when().get("https://reqres.in/api/users/2")
+    	.when().get("https://reqres.in/api/users/"+id)
     	.then().statusCode(200).log().all().extract().response();
         
     }
