@@ -1,0 +1,13 @@
+{
+    "getuser":{
+        "id":2,
+        "first_name":"Janet",
+        "last_name":"weaver",
+        "email":"janet.weaver@requres.in"
+    },
+    "postuser":{
+        "name":"Henry",
+        "job":"QA"
+
+    }
+}
